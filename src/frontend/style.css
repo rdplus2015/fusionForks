@@ -12,6 +12,7 @@
 :root{
         --btn-main-color:var(--color-main);
         --color-main:#6F4D38;
+        --color-border:#6f4d383d;
         --color-main-hover:#D5B893;
         --color-white: #fff;
 }
@@ -48,6 +49,11 @@
 }
     
 
+/* Header style */ 
+
+.main-header{
+        border-bottom: 1px solid var(--color-border);
+}
 
 /* Style index.html */
 
