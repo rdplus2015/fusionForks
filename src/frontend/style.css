@@ -1,18 +1,52 @@
 
 /* 
         Style globale 
-
+    
         - Header 
         - Footer 
         - Notification 
         - autres 
+    
+*/
 
- */
-
-
-
-
-
+:root{
+        --btn-main-color:var(--color-main);
+        --color-main:#6F4D38;
+        --color-main-hover:#D5B893;
+        --color-white: #fff;
+}
+    
+  
+    
+    
+/* Boutons et lien  */ 
+    
+.btn-fusionForks{
+        background-color: var(--btn-main-color);
+        color:var(--color-white);
+        font-weight: 600;
+}
+    
+.btn-fusionForks:hover{
+        background-color: var(--color-main-hover);
+        color: var(--btn-main-color);
+        font-weight: 600;
+}
+    
+    
+.link-fusionForks{
+        color: var(--color-main) ;
+        font-weight: 700;
+}
+    
+.link-fusionForks:hover{
+        color: var(--color-main-hover);
+}
+    
+.nav-link:{
+        color: var(--color-main) ;
+}
+    
 
 
 /* Style index.html */
